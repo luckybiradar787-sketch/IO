@@ -1,0 +1,36 @@
+<!-- 
+
+<div class="card">
+    <div class="card-header">
+        <h2>{{postCard.title}}</h2>
+    </div>
+    <div class="card-body">
+        <p>{{postCard.body}}</p>
+    </div>
+</div>
+ -->
+
+ <!-- <mat-card>
+    <mat-card-title>
+        {{postCard.title}}
+    </mat-card-title>
+    <mat-card-content>
+        {{postCard.body}}
+    </mat-card-content>
+ </mat-card> -->
+
+
+ <mat-card>
+  <mat-card-title> {{postCard.title}}</mat-card-title>
+  <mat-card-content>
+    <p> {{postCard.body}}</p>
+    
+  </mat-card-content>
+  
+  <mat-card-actions class="d-flex justify-content-between">
+    <button mat-raised-button color="primary">Edit</button>
+    <button mat-raised-button color="warn">Remove</button>
+  </mat-card-actions>
+  
+</mat-card>
+
