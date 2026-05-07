@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IpostObj } from '../../models/post-card';
+import { Ipost } from '../../models/post';
 
 
 @Component({
@@ -8,7 +8,7 @@ import { IpostObj } from '../../models/post-card';
   styleUrls: ['./post-card.component.scss']
 })
 export class PostCardComponent implements OnInit {
-@Input() postCard!:IpostObj
+@Input() getPost !:Ipost
 
 
 

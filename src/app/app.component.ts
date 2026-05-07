@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Iperson } from './shared/models/person';
-import { IpostObj } from './shared/models/post-card';
+import { Ipost } from './shared/models/post';
+
 
 
 @Component({
@@ -17,12 +18,12 @@ export class AppComponent {
     email:'luckybiradr@gmail.com'
   }
 
-  postObj:IpostObj= {
+  postObj:Ipost= {
     "userId": 1,
     "id": 1,
     "title": "Angular",
     "body": "Angular is a TypeScript-based, open-source web application framework developed and maintained by Google. It is used for building high-performance, scalable single-page applications (SPAs).",
-    postObj: undefined
+    
   }
   
 }

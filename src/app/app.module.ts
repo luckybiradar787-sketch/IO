@@ -7,6 +7,7 @@ import { OneComponent } from './shared/component/one/one.component';
 import { PostCardComponent } from './shared/component/post-card/post-card.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { PostsDashboardComponent } from './shared/component/posts-dashboard/posts-dashboard.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
     AppComponent,
     OneComponent,
     PostCardComponent,
+    PostsDashboardComponent,
     
   ],
   imports: [

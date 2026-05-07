@@ -1,9 +1,7 @@
-import { Title } from "@angular/platform-browser"
 
 
 
-export interface IpostObj{
-postObj: any
+export interface Ipost{
     userId:number,
     id:number,
     title:string,
