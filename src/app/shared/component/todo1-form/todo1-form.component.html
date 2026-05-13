@@ -1,0 +1,28 @@
+<!-- <p>todo1-form works!</p> -->
+
+
+<div class="card mt-5">
+    <div class="card-body">
+        <h2 class="font-weight-bold">{{isinEditmode ? 'UpdateTodo' : 'Add Todo'}}</h2>
+        <div class="form-group">
+            <label for="todoItem">TodoItem</label>
+            <input type="text" #todoItem class="form-control">
+        </div>
+         <div class="form-group">
+            <label for="isCompleted">IsCompleted</label>
+            <select type="text" #isCompleted class="form-control">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+            </select>
+        </div>
+        <button
+        *ngIf="!isinEditmode"
+        (click)="onTodoAdd()"
+        mat-raised-button color="primary" class="w-100">Add Todo</button>
+
+        <button
+        *ngIf="isinEditmode"
+        (click)="onUpdateTodo()"
+        mat-raised-button color="primary" class="w-100">Udate Todo</button>
+    </div>
+</div>

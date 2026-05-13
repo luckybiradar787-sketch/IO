@@ -1,0 +1,20 @@
+.dialog-body {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #2874f0; // Flipkart blue
+}
+
+.dialog-body p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.dialog-body button {
+  min-width: 100px;
+  font-weight: 500;
+  border-radius: 6px;
+}

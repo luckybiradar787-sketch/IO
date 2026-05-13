@@ -1,0 +1,21 @@
+
+
+<div class="card mt-5">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="todoItem">Todo Item</label>
+            <input type="text" #todoItem class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="isCompleted"> Is Completed</label>
+            <select class="form-control" #isCompleted>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+        </div>
+        
+        <button 
+        (click)="onTodoAdd()"
+        mat-raised-button color="primary" class="w-100">Add Todo</button>
+    </div>
+</div>

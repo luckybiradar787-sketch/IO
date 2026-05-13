@@ -1,0 +1,19 @@
+
+
+<div  class="dialog-body">
+    
+
+
+
+<p>{{getmsg || 'Are You want to delete '}}</p>
+<div class="d-flex justify-content-between">
+<button 
+(click)="onClick(true)"
+mat-raised-button color="primary" class="mr-2">Yes</button>
+<button
+(click)="onClick(false)"
+mat-raised-button color="warn">No</button>
+
+</div>
+
+</div>
